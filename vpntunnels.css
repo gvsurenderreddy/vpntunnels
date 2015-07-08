@@ -1,0 +1,445 @@
+/* computers */
+@media only screen and (min-width: 480px), only screen and (min-device-width: 480px) {
+	html
+		body
+	{
+		margin: 125px 0 0 80px;
+		width: 850px;
+	}
+}
+
+/* phones */
+@media only screen and (max-width: 480px), only screen and (max-device-width: 480px) {
+	html
+		body
+	{
+		margin: 10px 10px 0 10px;
+	}
+	
+	html
+		body
+		#vpn_form_search
+		#vpn_form_search_results
+		.vpn_search_select
+	{
+		display: block;
+		font-size: 2em;
+	}
+}
+
+.form-control
+{
+	cursor: pointer;
+}
+
+.panel-heading
+{
+	width: 100%;
+	margin-left: 0px;
+}
+
+html
+	body
+	.modal
+	.modal-body
+	h3
+{
+	font-size: .9em;
+	font-weight: bold;
+	color: #999;
+	margin: 3px 0 0 15px;
+	padding: 0;
+}
+
+html
+	body
+	#vpn_banner
+{
+	color: #800000;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+html
+	body
+	#vpn_form_forms
+{
+	margin-bottom: 20px;
+}
+
+html
+	body
+	.formatting_hint
+{
+	font-size: .7em;
+	color: #999999;
+}
+
+html
+	body
+	#popup_mailing_details
+	p
+{
+	font-size: .8em;
+	color: #aaa;
+}
+
+html
+	body
+	#popup_mailing_details
+	dl
+{
+	border: solid #aaa 1px;
+	width: 70%;
+	padding: 10px;
+	overflow: auto;
+	height: 200px;
+}
+
+html
+	body
+	#popup_mailing_details
+	dl
+	dd
+{
+	margin: 2px 0px 2px 20px;
+	font-weight: bold;
+	font-size: .9em;
+}
+
+html
+	body
+	#vpn_form_edit
+	#vpn_form_mailing_details
+{
+	margin-top: 20px;
+	font-size: 2em;
+	cursor: default;
+}
+
+html
+	body
+	#vpn_form_edit
+	.vpn_cont
+{
+	margin-bottom: 5px;
+	background-color: #f5f5ff;
+	padding: 5px 15px 15px 15px;
+}
+
+html
+	body
+	.caption
+{
+	font-size: 1.3em;
+	margin: 0 0 25px 0;
+	padding: 0;
+	color: #888;
+}
+
+html
+	body
+	.vpn_form
+{
+	display: none;
+}
+
+html
+	body
+	#vpn_form_new_label
+{
+	margin-bottom: 30px;
+}
+
+html
+	body
+	.vpn_cont
+	label
+{
+	display: block;
+}
+
+html
+	body
+	.autopushpin
+{
+	float: right;
+	position: relative;
+	opacity: .20;
+}
+
+html
+	body
+	.pinned
+{
+	opacity: 1;
+}
+
+html
+	body
+	.autopushpin:hover
+{
+	cursor: default;
+}
+
+html
+	body
+	.vpn_cont
+	#vpn_class
+{
+	margin-bottom: 10px;
+}
+
+html
+	body
+	.vpn_cont
+	.vpn_datetime
+{
+	width: 110px;
+	display: inline;
+}
+
+html
+	body
+	.vpn_cont
+	.time_insert_now
+{
+	display: block;
+}
+
+.dropdown-backdrop
+{
+  position: static;
+}
+
+.vpn_bubbles
+{
+	margin: 10px 0 0 0;
+}
+
+.vpn_bubbles
+	button
+{
+	margin: 2px 2px;	
+}
+
+.vpn_bubbles
+	button
+	.crossedout
+{
+	text-decoration: line-through;
+}
+
+html
+	body
+	#vpn_message_cont
+{
+	margin-top: 15px;
+	background-color: #ffffd5;
+	padding: 5px 15px 15px 15px;
+}
+
+
+html
+	body
+	#vpn_message_subject
+{
+	margin-bottom: 20px;
+}
+
+html
+	body
+	#vpn_message_contents
+{
+	height: 200px;
+	overflow: auto;
+}
+
+html
+	body
+	#vpn_cont_controls
+	.btn
+{
+	margin-bottom: 10px;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+{
+	background-color: #eeeeee;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+{
+	margin: 40px 0;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	#vpn_search_event_id
+{
+	width: 80px;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	.vpn_cont
+{
+	border: solid #ddd 1px;
+	padding: 10px 10px 0 10px;
+	width: 30%;
+	
+	height: 175px;
+	overflow: auto;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	.form-group-block
+{
+	display: block;
+	margin: 0 0 40px 0;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	.vpn_search_date
+{
+	display: block;
+	margin: 20px 0;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	.vpn_search_date
+	.input-group-addon
+{
+	width: 150px;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_filters
+	#search_filter_fields
+	.vpn_search_bubble_andor
+{
+	margin: 10px 0 0 0;
+	padding: 0;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.search_message
+{
+	color: #d00;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 30px 0 0 120px;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.vpn_search_result:hover
+{
+	-webkit-box-shadow: inset 0px 0px 15px #A2C3E0;
+	-moz-box-shadow: inset 0px 0px 15px #A2C3E0;
+	box-shadow: inset 0px 0px 15px #A2C3E0;
+}
+
+
+
+html
+	.vpn_search_select
+{
+	display: none;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.editlog_event
+{
+	font-size: .8em;
+	padding: 0;
+	margin: 0;
+	text-align: right;
+	color: #bbb;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.editlog_mailing_details
+{
+	font-size: 1.5em;
+	text-align: right;
+	color: #bbb;
+	cursor: default;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.units_affected,
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.event_field
+{
+	font-size: .8em;
+	color: #428bca;
+	margin: 5px 0;
+	padding: 0;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.message
+{
+	margin-top: 15px;
+	background-color: #ffffd5;
+	padding: 5px 15px 15px 15px;
+}
+
+html
+	body
+	#vpn_form_search
+	#vpn_form_search_results
+	.message_heading
+{
+	font-weight: bold;
+	font-size: .7em;
+	color: #bbb;	
+}
